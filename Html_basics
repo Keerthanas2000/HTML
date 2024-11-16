@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!--  defines to browser what type of file to read  -->
+<html>
+    <!--  opening tag   till closing tag the with content and attribute and value if any are called element 
+example : <p>  [start tag   where tags defines the structure and content of page ]
+    class = "important"  [  where class  is called attribute and important is called value  the attribute and value are in key value pair , 
+    used to modify the behavior and appearance of element]
+    This is an paragraph tag [content of html tag]
+</p>    [end tag]
+
+Some of the most used  Attributes: Title (to add tooltip),href (link can be relative and absolute ),src  ,data(custom )
+, id (applicable for individual elements (ex.student have unique id)), class ( for 1 or more element(ex.multiple students can be in same class) ), height, width,style(to add css)
+-->
+    <head>
+        <!-- The head tag is important because it provides information to browsers and search engines, but is not displayed on the page:
+        
+        
+        -->
+        <meta charset="UTF-8">
+        <!--  tells the browser to use utf8 character encoding for the content of webpage . this includes  many language and emoji and character which are not present in ascii character encoding format-->
+        <meta name="description" content="Discover great prices on an easy-to-use eCommerce platform!">
+        <!--<meta> Tag: This tag provides metadata about the web page, which is not displayed on the page itself but is used by browsers, search engines, and other web services.
+
+name="description": Specifies the type of metadata, in this case, the description of the web page.
+
+content="Discover great prices on an easy-to-use eCommerce platform!": Provides the actual description of the page. This text is commonly displayed in search engine results under the page title.-->
+        <meta name="keywords" content="phone, cloths, chargers">
+        <!--  before search engines were using this to determine topics of webpage-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--to make the webpage look good in every device so that the device  screen dimensions do not intervene the contents display-->
+        <meta name="robots" content="index,follow">
+        <!--tag provides instructions to web crawlers (also known as robots) about how they should interact with a web page. 
+        
+        name="robots":
+
+Specifies that the metadata is for web crawlers (search engine bots).
+content="index,follow":
+
+index: Instructs crawlers to include this page in their search index.
+follow: Instructs crawlers to follow the links on this page to other pages.
+
+Indexing is the process by which search engines, like Google or Bing, analyze and store information about web pages to make them retrievable in search results. When a search engine indexes a page, it adds the page to its vast database (index) so it can quickly retrieve it when a user searches for relevant terms.-->
+        <meta name="author" content="Keerthana">
+        <!-- to display author of webpage -->
+        <meta http-equiv="refresh" content="5;">
+        <!-- to  trigger the refresh of page every 5 sec-->
+        <title>HTML Basics</title>
+        <!--
+        
+        The <title> tag defines the title of a web page, which is displayed in the browser's title bar or tab and often appears as the clickable link in search engine results. 
+        -->
+        <!--   Youtube reference https://youtu.be/WecWWZifXB4?si=X6S0udofWaBxHEdA-->
+    </head>
+    <body>
+        <h1>Welcome to Example Page</h1>
+        <p>This is an example HTML file with various meta tags.</p>
+    </body>
+</html>
+<!-- closing tag  -->
