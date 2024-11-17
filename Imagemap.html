@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Map Example</title>
+</head>
+<body>
+  <h1>Image Map Example</h1>
+  <p>Click on the specific areas of the image below:</p>
+
+  <!-- Image with a map -->
+  <img src="https://www.w3schools.com/html/img_chania.jpg" alt="Sample Image Map" usemap="#image-map" width="600" height="400">
+
+  <!-- Defining the map -->
+  <map name="image-map">
+    <!-- Rectangle area (adjusted for this image) -->
+    <area shape="rect" coords="50,50,200,200" href="https://www.google.com" alt="Google" target="_blank" title="Go to Google">
+    <!-- Circle area (adjusted for this image) -->
+    <area shape="circle" coords="400,150,75" href="https://www.wikipedia.org" alt="Wikipedia" target="_blank" title="Go to Wikipedia">
+    <!-- Polygon area (adjusted for this image) -->
+    <area shape="poly" coords="300,100,500,150,450,300" href="https://www.example.com" alt="Example" target="_blank" title="Go to Example">
+  </map>
+
+  <p><strong>Instructions:</strong></p>
+  <ul>
+    <li>Click the rectangle in the top-left to visit Google.</li>
+    <li>Click the circle near the center-right to visit Wikipedia.</li>
+    <li>Click the polygon in the bottom-right to visit Example.com.</li>
+  </ul>
+</body>
+</html>
